@@ -43,7 +43,7 @@ python downstream/make_tables.py                  # tables and figures from down
 
 Training: all weights of the base model are trained together with the adapters for 6000 steps (AdamW, batch size 32,
 learning rate 1e-5 for the base model and 1e-3 for the adapters, 100 warm-up steps, cosine decay); NIF stays frozen.
-It takes about 3.2 hours on a 71 GB slice of an NVIDIA H200. The training mixture is 40% arithmetic problems,
+It takes about 3.2 hours on a 71 GB partition of an NVIDIA H200 GPU. The training mixture is 40% arithmetic problems,
 15% templated word problems with step-by-step solutions, 15% the base model's own correct solutions of
 4,815 of the 7,473 GSM8K training problems (7,508 solutions) and 30% its own
 solutions of word problems from various domains.
@@ -55,19 +55,20 @@ greedily (at most 512 tokens); an answer is correct if its final number equals t
 
 ## Results (Table 7)
 
-Exact match (%) of the final answer, base model against the model trained with NIF on the same problems. p: exact
-McNemar test, Holm–Bonferroni adjusted over the rows; bold: p < 0.05.
+Exact match (%) of the final answer, base model against the model trained with NIF on the same problems. Operators
+off: the model trained with NIF, with the operator layers and register outputs switched off. p: exact McNemar test of
+the base model and the model trained with NIF, Holm–Bonferroni adjusted over the rows; bold: p < 0.05.
 
-| Test set | Problems | Base model | Trained with NIF | p |
-|:---|---:|---:|---:|---:|
-| GSM-Ranges, level 1 | 200 | 59.5 | 55.0 | 0.92 |
-| GSM-Ranges, level 2 | 200 | 53.5 | 53.5 | 1.00 |
-| GSM-Ranges, level 3 | 200 | 43.0 | 46.5 | 0.92 |
-| GSM-Ranges, level 4 | 200 | 39.0 | 44.5 | 0.77 |
-| GSM-Ranges, level 5 | 200 | 29.5 | 43.0 | **0.004** |
-| GSM-Ranges, level 6 | 200 | 28.0 | 43.0 | **<0.001** |
-| Templated problems, numbers of 1–12 digits | 800 | 54.2 | 85.1 | **<0.001** |
-| Templated problems, numbers of 14–20 digits | 300 | 1.3 | 39.7 | **<0.001** |
+| Test set | Problems | Base model | Trained with NIF | Operators off | p |
+|:---|---:|---:|---:|---:|---:|
+| GSM-Ranges, level 1 | 200 | 59.5 | 55.0 | 55.5 | 0.92 |
+| GSM-Ranges, level 2 | 200 | 53.5 | 53.5 | 53.0 | 1.00 |
+| GSM-Ranges, level 3 | 200 | 43.0 | 46.5 | 46.0 | 0.92 |
+| GSM-Ranges, level 4 | 200 | 39.0 | 44.5 | 45.0 | 0.77 |
+| GSM-Ranges, level 5 | 200 | 29.5 | 43.0 | 42.5 | **0.004** |
+| GSM-Ranges, level 6 | 200 | 28.0 | 43.0 | 40.5 | **<0.001** |
+| Templated problems, numbers of 1–12 digits | 800 | 54.2 | 85.1 | 85.2 | **<0.001** |
+| Templated problems, numbers of 14–20 digits | 300 | 1.3 | 39.7 | 12.0 | **<0.001** |
 
 Training for 10,000 instead of 6000 steps (`operator_layers_10000`) changes no row of the table significantly
 (smallest adjusted p = 0.06).

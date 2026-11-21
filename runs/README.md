@@ -103,7 +103,6 @@ Exact match (%, length-free decoding) by the shape of the number that the decode
 for reconstruction, the result for the closure tests). "Within": integer and fractional part within the training
 lengths (at most 12 digits each for N = 25, ⌊N/2⌋ otherwise) and at most N digits in total; "longer part": a longer
 part, at most N digits; "> N digits": outside D_N. N = 25, c = 10: mean of the three seeds; all other rows: one run.
-The runs with N = 200 and c ≥ 4 were trained for 10,300–11,700 steps.
 
 | N | c | d | Within: Rec. | Within: + | Within: × | Longer part: Rec. | Longer part: + | Longer part: × | > N digits: Rec. | > N digits: + | > N digits: × |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

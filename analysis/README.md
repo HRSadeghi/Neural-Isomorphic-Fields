@@ -70,7 +70,7 @@ These numbers come from `test_results.json` of each run (`geometry` entry, writt
 
 ## Inference cost (Table A.1)
 
-`main_s0`, numbers with 25 digits, batch 512, on one slice of an NVIDIA H200 shared with other jobs
+`main_s0`, numbers with 25 digits, batch 512, on a partition of an NVIDIA H200 GPU
 (`results/analysis/cost.jsonl`):
 
 | Part | Time per number (ms) | Peak GPU memory per batch (MB) |
