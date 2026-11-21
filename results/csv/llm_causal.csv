@@ -1,0 +1,11 @@
+test set,problems,as trained,operators off,other vectors,"p (McNemar, on vs off)",p (Holm)
+"Addition, 1--12 digits",800,100.00,98.00,13.25,0.000031,0.000153
+"Addition, 14--20 digits",300,98.67,18.00,2.33,0.000000,0.000000
+"Subtraction, 1--12 digits",800,100.00,98.62,4.75,0.000977,0.003906
+"Subtraction, 14--20 digits",300,97.67,15.00,0.33,0.000000,0.000000
+"Multiplication, factors of 1--6 digits",600,100.00,68.17,13.33,0.000000,0.000000
+"Multiplication, factors of 7--8 digits",200,100.00,43.50,4.50,0.000000,0.000000
+"Templated problems, numbers of 1--12 digits",800,85.12,85.25,58.50,1.000000,1.000000
+"Templated problems, numbers of 14--20 digits",300,39.67,12.00,8.67,0.000000,0.000000
+"GSM-Ranges, levels 1--3",600,51.67,51.50,51.33,1.000000,1.000000
+"GSM-Ranges, levels 4--6",600,43.50,42.67,41.67,0.551484,1.000000

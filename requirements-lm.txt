@@ -1,0 +1,11 @@
+# Extra packages for the language-model experiment in downstream/ (install requirements.txt first).
+# Versions used for the runs in downstream/runs/ (Python 3.12, CUDA 12.6, torch 2.13.0).
+transformers==5.22.2
+accelerate==1.15.0
+datasets==5.2.0
+huggingface_hub==2.4.0
+safetensors==0.8.0
+
+# Optional, Linux with an NVIDIA GPU only: Triton kernels for the linear-attention layers of the base model.
+# Without it the layers run on the PyTorch reference code (slower, same model).
+#   pip install flash-linear-attention==0.6.0

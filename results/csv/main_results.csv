@@ -1,0 +1,133 @@
+run,mode,group,test,n,em,acc
+main_s0,N25_length_free,Reconstruction,reconstruction,10000,99.99,99.99851851851852
+main_s0,N25_oracle,Reconstruction,reconstruction,10000,99.99,99.99925925925926
+main_s1,N25_length_free,Reconstruction,reconstruction,10000,100.0,100.0
+main_s1,N25_oracle,Reconstruction,reconstruction,10000,100.0,100.0
+main_s2,N25_length_free,Reconstruction,reconstruction,10000,100.0,100.0
+main_s2,N25_oracle,Reconstruction,reconstruction,10000,100.0,100.0
+main_s0,N25_length_free,Addition,identity+,10000,100.0,100.0
+main_s0,N25_oracle,Addition,identity+,10000,100.0,100.0
+main_s1,N25_length_free,Addition,identity+,10000,100.0,100.0
+main_s1,N25_oracle,Addition,identity+,10000,100.0,100.0
+main_s2,N25_length_free,Addition,identity+,10000,100.0,100.0
+main_s2,N25_oracle,Addition,identity+,10000,100.0,100.0
+main_s0,N25_length_free,Addition,closure+,10000,99.99,99.99959999999999
+main_s0,N25_oracle,Addition,closure+,10000,99.99,99.99959999999999
+main_s1,N25_length_free,Addition,closure+,10000,100.0,100.0
+main_s1,N25_oracle,Addition,closure+,10000,100.0,100.0
+main_s2,N25_length_free,Addition,closure+,10000,100.0,100.0
+main_s2,N25_oracle,Addition,closure+,10000,100.0,100.0
+main_s0,N25_length_free,Addition,invertibility+,10000,99.99,99.995
+main_s0,N25_oracle,Addition,invertibility+,10000,99.99,99.995
+main_s1,N25_length_free,Addition,invertibility+,10000,100.0,100.0
+main_s1,N25_oracle,Addition,invertibility+,10000,100.0,100.0
+main_s2,N25_length_free,Addition,invertibility+,10000,100.0,100.0
+main_s2,N25_oracle,Addition,invertibility+,10000,100.0,100.0
+main_s0,N25_length_free,Addition,assoc+,10000,99.99,99.999
+main_s0,N25_oracle,Addition,assoc+,10000,99.99,99.999
+main_s1,N25_length_free,Addition,assoc+,10000,100.0,100.0
+main_s1,N25_oracle,Addition,assoc+,10000,100.0,100.0
+main_s2,N25_length_free,Addition,assoc+,10000,99.96000000000001,99.9974861111111
+main_s2,N25_oracle,Addition,assoc+,10000,99.96000000000001,99.9974861111111
+main_s0,N25_length_free,Multiplication,identityx,10000,100.0,100.0
+main_s0,N25_oracle,Multiplication,identityx,10000,100.0,100.0
+main_s1,N25_length_free,Multiplication,identityx,10000,100.0,100.0
+main_s1,N25_oracle,Multiplication,identityx,10000,100.0,100.0
+main_s2,N25_length_free,Multiplication,identityx,10000,100.0,100.0
+main_s2,N25_oracle,Multiplication,identityx,10000,100.0,100.0
+main_s0,N25_length_free,Multiplication,closurex,10000,99.97,99.9984294871795
+main_s0,N25_oracle,Multiplication,closurex,10000,99.97,99.9984294871795
+main_s1,N25_length_free,Multiplication,closurex,10000,99.98,99.99924501424503
+main_s1,N25_oracle,Multiplication,closurex,10000,99.98,99.99924501424503
+main_s2,N25_length_free,Multiplication,closurex,10000,99.99,99.99962962962964
+main_s2,N25_oracle,Multiplication,closurex,10000,99.99,99.99962962962964
+main_s0,N25_length_free,Multiplication,invertibilityx,4438,84.85804416403786,92.42902208201893
+main_s0,N25_oracle,Multiplication,invertibilityx,4438,84.85804416403786,92.42902208201893
+main_s1,N25_length_free,Multiplication,invertibilityx,4438,85.3988283010365,92.7219468228932
+main_s1,N25_oracle,Multiplication,invertibilityx,4438,85.44389364578639,92.7219468228932
+main_s2,N25_length_free,Multiplication,invertibilityx,4438,85.3988283010365,92.69941415051825
+main_s2,N25_oracle,Multiplication,invertibilityx,4438,85.3988283010365,92.69941415051825
+main_s0,N25_length_free,Multiplication,assocx,10000,99.95,99.99751296296297
+main_s0,N25_oracle,Multiplication,assocx,10000,99.95,99.99751296296297
+main_s1,N25_length_free,Multiplication,assocx,10000,99.94,99.99638189764201
+main_s1,N25_oracle,Multiplication,assocx,10000,99.94,99.99638189764201
+main_s2,N25_length_free,Multiplication,assocx,10000,99.92,99.99834572058379
+main_s2,N25_oracle,Multiplication,assocx,10000,99.92,99.99834572058379
+main_s0,N25_length_free,Both operations,distrib,10000,99.88,99.97944221625181
+main_s0,N25_oracle,Both operations,distrib,10000,99.88,99.98307857988819
+main_s1,N25_length_free,Both operations,distrib,10000,99.97,99.99589624505928
+main_s1,N25_oracle,Both operations,distrib,10000,99.97,99.99907806324111
+main_s2,N25_length_free,Both operations,distrib,10000,99.91,99.99221983433235
+main_s2,N25_oracle,Both operations,distrib,10000,99.91,99.99221983433235
+main_s0,N25_length_free,Order,order_order,10000,99.8,
+main_s0,N25_oracle,Order,order_order,10000,99.8,
+main_s1,N25_length_free,Order,order_order,10000,99.88,
+main_s1,N25_oracle,Order,order_order,10000,99.88,
+main_s2,N25_length_free,Order,order_order,10000,99.69,
+main_s2,N25_oracle,Order,order_order,10000,99.69,
+main_s0,N25_length_free,Order,order_antisymmetry_consistency_raw,10000,99.8,
+main_s0,N25_oracle,Order,order_antisymmetry_consistency_raw,10000,99.8,
+main_s1,N25_length_free,Order,order_antisymmetry_consistency_raw,10000,99.92999999999999,
+main_s1,N25_oracle,Order,order_antisymmetry_consistency_raw,10000,99.92999999999999,
+main_s2,N25_length_free,Order,order_antisymmetry_consistency_raw,10000,99.67,
+main_s2,N25_oracle,Order,order_antisymmetry_consistency_raw,10000,99.67,
+main_s0,N25_length_free,Order,order_transitivity,19959,100.0,
+main_s0,N25_oracle,Order,order_transitivity,19959,100.0,
+main_s1,N25_length_free,Order,order_transitivity,19937,100.0,
+main_s1,N25_oracle,Order,order_transitivity,19937,100.0,
+main_s2,N25_length_free,Order,order_transitivity,19876,99.98490641980278,
+main_s2,N25_oracle,Order,order_transitivity,19876,99.98490641980278,
+main_s0,N25_length_free,Order,order_compat_O1,10000,99.57000000000001,
+main_s0,N25_oracle,Order,order_compat_O1,10000,99.57000000000001,
+main_s1,N25_length_free,Order,order_compat_O1,10000,99.59,
+main_s1,N25_oracle,Order,order_compat_O1,10000,99.59,
+main_s2,N25_length_free,Order,order_compat_O1,10000,99.16,
+main_s2,N25_oracle,Order,order_compat_O1,10000,99.16,
+main_s0,N25_length_free,Order,order_compat_O2,9759,100.0,
+main_s0,N25_oracle,Order,order_compat_O2,9759,100.0,
+main_s1,N25_length_free,Order,order_compat_O2,9759,100.0,
+main_s1,N25_oracle,Order,order_compat_O2,9759,100.0,
+main_s2,N25_length_free,Order,order_compat_O2,9759,100.0,
+main_s2,N25_oracle,Order,order_compat_O2,9759,100.0,
+main_s0,N25_length_free,Fraction field,fraction_add,10000,99.97,
+main_s0,N25_oracle,Fraction field,fraction_add,10000,99.97,
+main_s1,N25_length_free,Fraction field,fraction_add,10000,99.97,
+main_s1,N25_oracle,Fraction field,fraction_add,10000,99.97,
+main_s2,N25_length_free,Fraction field,fraction_add,10000,99.97,
+main_s2,N25_oracle,Fraction field,fraction_add,10000,99.97,
+main_s0,N25_length_free,Fraction field,fraction_mul,10000,100.0,
+main_s0,N25_oracle,Fraction field,fraction_mul,10000,100.0,
+main_s1,N25_length_free,Fraction field,fraction_mul,10000,99.99,
+main_s1,N25_oracle,Fraction field,fraction_mul,10000,99.99,
+main_s2,N25_length_free,Fraction field,fraction_mul,10000,99.99,
+main_s2,N25_oracle,Fraction field,fraction_mul,10000,99.99,
+main_s0,N25_length_free,Fraction field,fraction_order,10000,96.37,
+main_s0,N25_oracle,Fraction field,fraction_order,10000,96.37,
+main_s1,N25_length_free,Fraction field,fraction_order,10000,96.98,
+main_s1,N25_oracle,Fraction field,fraction_order,10000,96.98,
+main_s2,N25_length_free,Fraction field,fraction_order,10000,96.26,
+main_s2,N25_oracle,Fraction field,fraction_order,10000,96.26,
+main_s0,N25_length_free,Chains,chains+@5,,100.0,
+main_s0,N25_oracle,Chains,chains+@5,,100.0,
+main_s1,N25_length_free,Chains,chains+@5,,100.0,
+main_s1,N25_oracle,Chains,chains+@5,,100.0,
+main_s2,N25_length_free,Chains,chains+@5,,99.6,
+main_s2,N25_oracle,Chains,chains+@5,,99.6,
+main_s0,N25_length_free,Chains,chains+@10,,99.4,
+main_s0,N25_oracle,Chains,chains+@10,,99.4,
+main_s1,N25_length_free,Chains,chains+@10,,100.0,
+main_s1,N25_oracle,Chains,chains+@10,,100.0,
+main_s2,N25_length_free,Chains,chains+@10,,100.0,
+main_s2,N25_oracle,Chains,chains+@10,,100.0,
+main_s0,N25_length_free,Chains,chainsx@5,,100.0,
+main_s0,N25_oracle,Chains,chainsx@5,,100.0,
+main_s1,N25_length_free,Chains,chainsx@5,,100.0,
+main_s1,N25_oracle,Chains,chainsx@5,,100.0,
+main_s2,N25_length_free,Chains,chainsx@5,,100.0,
+main_s2,N25_oracle,Chains,chainsx@5,,100.0,
+main_s0,N25_length_free,Chains,chainsx@10,,100.0,
+main_s0,N25_oracle,Chains,chainsx@10,,100.0,
+main_s1,N25_length_free,Chains,chainsx@10,,100.0,
+main_s1,N25_oracle,Chains,chainsx@10,,100.0,
+main_s2,N25_length_free,Chains,chainsx@10,,100.0,
+main_s2,N25_oracle,Chains,chainsx@10,,100.0,

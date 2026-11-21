@@ -1,0 +1,2470 @@
+{
+ "job": "op_nif_s0",
+ "method": "op_nif",
+ "seed": 0,
+ "model": "Qwen/Qwen3.5-0.8B",
+ "cells": {
+  "add": {
+   "1": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.26,
+    "copied": 99.2,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "2": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.32,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "3": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.39,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "4": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.45,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "6": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.52,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "8": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.58,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "10": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.65,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "12": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.72,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "14": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.75,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "16": {
+    "n": 100,
+    "em": 99.0,
+    "sec": 0.87,
+    "copied": 99.72,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "20": {
+    "n": 100,
+    "em": 94.0,
+    "sec": 2.79,
+    "copied": 93.05,
+    "registers": 1.0,
+    "answer_in_results": 99.0
+   }
+  },
+  "sub": {
+   "1": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.25,
+    "copied": 98.8,
+    "registers": 0.99,
+    "answer_in_results": 99.0
+   },
+   "2": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.31,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "3": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.38,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "4": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.45,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "6": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.51,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "8": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.58,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "10": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.65,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "12": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.71,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "14": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.79,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 100.0
+   },
+   "16": {
+    "n": 100,
+    "em": 98.0,
+    "sec": 0.85,
+    "copied": 100.0,
+    "registers": 1.0,
+    "answer_in_results": 98.0
+   },
+   "20": {
+    "n": 100,
+    "em": 94.0,
+    "sec": 0.99,
+    "copied": 99.91,
+    "registers": 1.0,
+    "answer_in_results": 95.0
+   }
+  },
+  "mul": {
+   "1": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.19,
+    "copied": 89.53,
+    "registers": 0.82,
+    "answer_in_results": 82.0
+   },
+   "2": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.25,
+    "copied": 95.12,
+    "registers": 0.92,
+    "answer_in_results": 92.0
+   },
+   "3": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.32,
+    "copied": 98.75,
+    "registers": 0.98,
+    "answer_in_results": 98.0
+   },
+   "4": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.35,
+    "copied": 97.31,
+    "registers": 0.96,
+    "answer_in_results": 96.0
+   },
+   "5": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.38,
+    "copied": 97.05,
+    "registers": 0.96,
+    "answer_in_results": 96.0
+   },
+   "6": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.42,
+    "copied": 97.73,
+    "registers": 0.97,
+    "answer_in_results": 97.0
+   },
+   "7": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.45,
+    "copied": 96.8,
+    "registers": 0.96,
+    "answer_in_results": 96.0
+   },
+   "8": {
+    "n": 100,
+    "em": 100.0,
+    "sec": 0.48,
+    "copied": 97.55,
+    "registers": 0.97,
+    "answer_in_results": 97.0
+   }
+  },
+  "wp_cot": {
+   "1": {
+    "n": 100,
+    "em": 90.0,
+    "sec": 20.76,
+    "copied": 0.28,
+    "registers": 1.94,
+    "answer_in_results": 47.0
+   },
+   "2": {
+    "n": 100,
+    "em": 82.0,
+    "sec": 21.32,
+    "copied": 1.83,
+    "registers": 2.01,
+    "answer_in_results": 56.0
+   },
+   "3": {
+    "n": 100,
+    "em": 93.0,
+    "sec": 22.23,
+    "copied": 2.76,
+    "registers": 1.72,
+    "answer_in_results": 63.0
+   },
+   "4": {
+    "n": 100,
+    "em": 82.0,
+    "sec": 23.64,
+    "copied": 4.71,
+    "registers": 1.96,
+    "answer_in_results": 61.0
+   },
+   "6": {
+    "n": 100,
+    "em": 89.0,
+    "sec": 27.53,
+    "copied": 5.84,
+    "registers": 1.97,
+    "answer_in_results": 58.0
+   },
+   "8": {
+    "n": 100,
+    "em": 84.0,
+    "sec": 33.76,
+    "copied": 7.0,
+    "registers": 1.93,
+    "answer_in_results": 70.0
+   },
+   "10": {
+    "n": 100,
+    "em": 79.0,
+    "sec": 32.86,
+    "copied": 7.62,
+    "registers": 1.69,
+    "answer_in_results": 64.0
+   },
+   "12": {
+    "n": 100,
+    "em": 75.0,
+    "sec": 35.74,
+    "copied": 7.1,
+    "registers": 1.52,
+    "answer_in_results": 58.0
+   },
+   "14": {
+    "n": 100,
+    "em": 48.0,
+    "sec": 35.88,
+    "copied": 9.05,
+    "registers": 1.76,
+    "answer_in_results": 50.0
+   },
+   "16": {
+    "n": 100,
+    "em": 41.0,
+    "sec": 38.0,
+    "copied": 8.68,
+    "registers": 1.54,
+    "answer_in_results": 49.0
+   },
+   "20": {
+    "n": 100,
+    "em": 24.0,
+    "sec": 38.95,
+    "copied": 9.15,
+    "registers": 1.35,
+    "answer_in_results": 45.0
+   }
+  },
+  "ranges_cot": {
+   "1": {
+    "n": 200,
+    "em": 57.0,
+    "sec": 82.07,
+    "copied": 1.01,
+    "registers": 2.5,
+    "answer_in_results": 26.5
+   },
+   "2": {
+    "n": 200,
+    "em": 47.0,
+    "sec": 88.63,
+    "copied": 1.78,
+    "registers": 1.55,
+    "answer_in_results": 24.0
+   },
+   "3": {
+    "n": 200,
+    "em": 46.5,
+    "sec": 88.5,
+    "copied": 2.0,
+    "registers": 1.57,
+    "answer_in_results": 22.5
+   },
+   "4": {
+    "n": 200,
+    "em": 43.5,
+    "sec": 90.26,
+    "copied": 2.45,
+    "registers": 1.72,
+    "answer_in_results": 22.0
+   },
+   "5": {
+    "n": 200,
+    "em": 44.5,
+    "sec": 90.19,
+    "copied": 2.04,
+    "registers": 1.51,
+    "answer_in_results": 20.5
+   },
+   "6": {
+    "n": 200,
+    "em": 42.0,
+    "sec": 91.16,
+    "copied": 2.38,
+    "registers": 1.55,
+    "answer_in_results": 17.0
+   }
+  }
+ },
+ "summary": {
+  "add_in": 100.0,
+  "add_beyond": 97.67,
+  "sub_in": 100.0,
+  "sub_beyond": 97.33,
+  "mul_in": 100.0,
+  "mul_beyond": 100.0,
+  "wp_cot_in": 84.25,
+  "wp_cot_beyond": 37.67,
+  "ranges_cot_L1": 57.0,
+  "ranges_cot_L2": 47.0,
+  "ranges_cot_L3": 46.5,
+  "ranges_cot_L4": 43.5,
+  "ranges_cot_L5": 44.5,
+  "ranges_cot_L6": 42.0
+ },
+ "samples": {
+  "add/1": [
+   {
+    "prompt": "Compute: 4 + 1\nAnswer with the number only.",
+    "target": "5",
+    "output": "5",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "4",
+      "1"
+     ],
+     "results": [
+      "5"
+     ]
+    }
+   }
+  ],
+  "add/2": [
+   {
+    "prompt": "Compute: 8 + 46\nAnswer with the number only.",
+    "target": "54",
+    "output": "54",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "8",
+      "46"
+     ],
+     "results": [
+      "54"
+     ]
+    }
+   }
+  ],
+  "add/3": [
+   {
+    "prompt": "Compute: 800.3 + 91\nAnswer with the number only.",
+    "target": "891.3",
+    "output": "891.3",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "800.3",
+      "91"
+     ],
+     "results": [
+      "891.3"
+     ]
+    }
+   }
+  ],
+  "add/4": [
+   {
+    "prompt": "Compute: 9805 + 9749\nAnswer with the number only.",
+    "target": "19554",
+    "output": "19554",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "9805",
+      "9749"
+     ],
+     "results": [
+      "19554"
+     ]
+    }
+   }
+  ],
+  "add/6": [
+   {
+    "prompt": "Compute: 3287 + 272084\nAnswer with the number only.",
+    "target": "275371",
+    "output": "275371",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "3287",
+      "272084"
+     ],
+     "results": [
+      "275371"
+     ]
+    }
+   }
+  ],
+  "add/8": [
+   {
+    "prompt": "Compute: 86050 + 78251232\nAnswer with the number only.",
+    "target": "78337282",
+    "output": "78337282",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "86050",
+      "78251232"
+     ],
+     "results": [
+      "78337282"
+     ]
+    }
+   }
+  ],
+  "add/10": [
+   {
+    "prompt": "Compute: 4078822492 + 394123.2\nAnswer with the number only.",
+    "target": "4079216615.2",
+    "output": "4079216615.2",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "4078822492",
+      "394123.2"
+     ],
+     "results": [
+      "4079216615.2"
+     ]
+    }
+   }
+  ],
+  "add/12": [
+   {
+    "prompt": "Compute: 35.2 + 416517563555.2427\nAnswer with the number only.",
+    "target": "416517563590.4427",
+    "output": "416517563590.4427",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "35.2",
+      "416517563555.2427"
+     ],
+     "results": [
+      "416517563590.4427"
+     ]
+    }
+   }
+  ],
+  "add/14": [
+   {
+    "prompt": "Compute: 38902473236562 + 4218046\nAnswer with the number only.",
+    "target": "38902477454608",
+    "output": "38902477454608",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "38902473236562",
+      "4218046"
+     ],
+     "results": [
+      "38902477454608"
+     ]
+    }
+   }
+  ],
+  "add/16": [
+   {
+    "prompt": "Compute: 989995788 + 2961330950863345\nAnswer with the number only.",
+    "target": "2961331940859133",
+    "output": "2961331940859133453",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "989995788",
+      "2961330950863345"
+     ],
+     "results": [
+      "2961331940859133"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 5984925374044652 + 6613409808.8157\nAnswer with the number only.",
+    "target": "5984931987454460.8157",
+    "output": "5984931987454460.8157",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "5984925374044652",
+      "6613409808.8157"
+     ],
+     "results": [
+      "5984931987454460.8157"
+     ]
+    }
+   }
+  ],
+  "add/20": [
+   {
+    "prompt": "Compute: 76465476191651540171 + 603375975917708\nAnswer with the number only.",
+    "target": "76466079567627457879",
+    "output": "7646607956762745787915",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "76465476191651540171",
+      "603375975917708"
+     ],
+     "results": [
+      "76466079567627457879"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 99096535277906364981 + 3664714983580466508.1\nAnswer with the number only.",
+    "target": "102761250261486831489.1",
+    "output": "1009027612502614868314898117.1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "99096535277906364981",
+      "3664714983580466508.1"
+     ],
+     "results": [
+      "100902761250261486831489"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 42499852033280401823 + 76606818818743040258\nAnswer with the number only.",
+    "target": "119106670852023442081",
+    "output": "119106670852023442081070266666666666666666666666666666666666666666666666666666666666666666666666",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "42499852033280401823",
+      "76606818818743040258"
+     ],
+     "results": [
+      "119106670852023442081"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 170918 + 86228070603432735460\nAnswer with the number only.",
+    "target": "86228070603432906378",
+    "output": "86228070603432906378",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "170918",
+      "86228070603432735460"
+     ],
+     "results": [
+      "86228070603432906378"
+     ]
+    }
+   }
+  ],
+  "sub/1": [
+   {
+    "prompt": "Compute: 8 - 5\nAnswer with the number only.",
+    "target": "3",
+    "output": "3",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "8",
+      "5"
+     ],
+     "results": [
+      "3"
+     ]
+    }
+   }
+  ],
+  "sub/2": [
+   {
+    "prompt": "Compute: 42.6 - 32\nAnswer with the number only.",
+    "target": "10.6",
+    "output": "10.6",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "42.6",
+      "32"
+     ],
+     "results": [
+      "10.6"
+     ]
+    }
+   }
+  ],
+  "sub/3": [
+   {
+    "prompt": "Compute: 261 - 602\nAnswer with the number only.",
+    "target": "-341",
+    "output": "-341",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "261",
+      "602"
+     ],
+     "results": [
+      "-341"
+     ]
+    }
+   }
+  ],
+  "sub/4": [
+   {
+    "prompt": "Compute: 5405 - 2072\nAnswer with the number only.",
+    "target": "3333",
+    "output": "3333",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "5405",
+      "2072"
+     ],
+     "results": [
+      "3333"
+     ]
+    }
+   }
+  ],
+  "sub/6": [
+   {
+    "prompt": "Compute: 96 - 715136\nAnswer with the number only.",
+    "target": "-715040",
+    "output": "-715040",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "96",
+      "715136"
+     ],
+     "results": [
+      "-715040"
+     ]
+    }
+   }
+  ],
+  "sub/8": [
+   {
+    "prompt": "Compute: 16128 - 46630564\nAnswer with the number only.",
+    "target": "-46614436",
+    "output": "-46614436",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "16128",
+      "46630564"
+     ],
+     "results": [
+      "-46614436"
+     ]
+    }
+   }
+  ],
+  "sub/10": [
+   {
+    "prompt": "Compute: 44067 - 5198563244.004\nAnswer with the number only.",
+    "target": "-5198519177.004",
+    "output": "-5198519177.004",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "44067",
+      "5198563244.004"
+     ],
+     "results": [
+      "-5198519177.004"
+     ]
+    }
+   }
+  ],
+  "sub/12": [
+   {
+    "prompt": "Compute: 559795555307 - 16804\nAnswer with the number only.",
+    "target": "559795538503",
+    "output": "559795538503",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "559795555307",
+      "16804"
+     ],
+     "results": [
+      "559795538503"
+     ]
+    }
+   }
+  ],
+  "sub/14": [
+   {
+    "prompt": "Compute: 64811000401512 - 52034\nAnswer with the number only.",
+    "target": "64811000349478",
+    "output": "64811000349478",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "64811000401512",
+      "52034"
+     ],
+     "results": [
+      "64811000349478"
+     ]
+    }
+   }
+  ],
+  "sub/16": [
+   {
+    "prompt": "Compute: 4141673065472900 - 9489871952634652\nAnswer with the number only.",
+    "target": "-5348198887161752",
+    "output": "-95348198887161752",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "4141673065472900",
+      "9489871952634652"
+     ],
+     "results": [
+      "-95348198887161752"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 2020838834827457 - 815078822473386\nAnswer with the number only.",
+    "target": "1205760012354071",
+    "output": "1205750012354071",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "2020838834827457",
+      "815078822473386"
+     ],
+     "results": [
+      "1205750012354071"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 2738972518852918.032 - 7.409\nAnswer with the number only.",
+    "target": "2738972518852910.623",
+    "output": "2738972518852910.623",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "2738972518852918.032",
+      "7.409"
+     ],
+     "results": [
+      "2738972518852910.623"
+     ]
+    }
+   }
+  ],
+  "sub/20": [
+   {
+    "prompt": "Compute: 72042 - 72482633969572674211.1\nAnswer with the number only.",
+    "target": "-72482633969572602169.1",
+    "output": "-71482633969572602169.1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "72042",
+      "72482633969572674211.1"
+     ],
+     "results": [
+      "-71482633969572602169.1"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 49690047732403370044 - 24036925905560875864.33\nAnswer with the number only.",
+    "target": "25653121826842494179.67",
+    "output": "-74346878173157505820.33",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "49690047732403370044",
+      "24036925905560875864.33"
+     ],
+     "results": [
+      "-74346878173157505820.33"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 5273436219150102719 - 88022115856401416668\nAnswer with the number only.",
+    "target": "-82748679637251313949",
+    "output": "-8274867963725131394915",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "5273436219150102719",
+      "88022115856401416668"
+     ],
+     "results": [
+      "-82748679637251313949"
+     ]
+    }
+   },
+   {
+    "prompt": "Compute: 3 - 45404031501274268379.76\nAnswer with the number only.",
+    "target": "-45404031501274268376.76",
+    "output": "-45404031501274268376.76",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "3",
+      "45404031501274268379.76"
+     ],
+     "results": [
+      "-45404031501274268376.76"
+     ]
+    }
+   }
+  ],
+  "mul/1": [
+   {
+    "prompt": "Compute: 2 * 7\nAnswer with the number only.",
+    "target": "14",
+    "output": "14",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "2",
+      "7"
+     ],
+     "results": [
+      "14"
+     ]
+    }
+   }
+  ],
+  "mul/2": [
+   {
+    "prompt": "Compute: 90 * 4\nAnswer with the number only.",
+    "target": "360",
+    "output": "360",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "90",
+      "4"
+     ],
+     "results": [
+      "360"
+     ]
+    }
+   }
+  ],
+  "mul/3": [
+   {
+    "prompt": "Compute: 6 * 707\nAnswer with the number only.",
+    "target": "4242",
+    "output": "4242",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "6",
+      "707"
+     ],
+     "results": [
+      "4242"
+     ]
+    }
+   }
+  ],
+  "mul/4": [
+   {
+    "prompt": "Compute: 370 * 6316\nAnswer with the number only.",
+    "target": "2336920",
+    "output": "2336920",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "370",
+      "6316"
+     ],
+     "results": [
+      "2336920"
+     ]
+    }
+   }
+  ],
+  "mul/5": [
+   {
+    "prompt": "Compute: 9 * 53996\nAnswer with the number only.",
+    "target": "485964",
+    "output": "485964",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "9",
+      "53996"
+     ],
+     "results": [
+      "485964"
+     ]
+    }
+   }
+  ],
+  "mul/6": [
+   {
+    "prompt": "Compute: 544192 * 376\nAnswer with the number only.",
+    "target": "204616192",
+    "output": "204616192",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "544192",
+      "376"
+     ],
+     "results": [
+      "204616192"
+     ]
+    }
+   }
+  ],
+  "mul/7": [
+   {
+    "prompt": "Compute: 7 * 5008197\nAnswer with the number only.",
+    "target": "35057379",
+    "output": "35057379",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "7",
+      "5008197"
+     ],
+     "results": [
+      "35057379"
+     ]
+    }
+   }
+  ],
+  "mul/8": [
+   {
+    "prompt": "Compute: 88912722 * 7\nAnswer with the number only.",
+    "target": "622389054",
+    "output": "622389054",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "88912722",
+      "7"
+     ],
+     "results": [
+      "622389054"
+     ]
+    }
+   }
+  ],
+  "wp_cot/1": [
+   {
+    "prompt": "A museum counted 5 visitors in its first decade and 3 visitors in its second decade. An audit then removed 4 duplicate entries. How many visitors remain in the count?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "4",
+    "output": "the sum of the initial counts.\n\n**Step 3: Calculate the final total.**\nWe sum the visitors from both decades:\n$$5 + 3 = 8$$\n\nThe audit removed 4 duplicates, but it did not remove any actual visitors. Therefore, the number of visitors remaining is the sum of the original counts.\n\n$$5 + 3 = 8$$\n#### 8",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "5",
+      "3",
+      "4"
+     ],
+     "results": [
+      "2",
+      "3"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 9 unsold seats for the year. It sold 1 seats in a spring sale and 5 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "3",
+    "output": "9 - 1 = 8\n8 + 5 = 13\n#### 13",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "9",
+      "1",
+      "5"
+     ],
+     "results": [
+      "8",
+      "6"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 8 unsold seats for the year. It sold 4 seats in a spring sale and 1 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "3",
+    "output": "8 - 4 = 4\n4 + 1 = 5\n4 - 5 = -1\n#### -1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "8",
+      "4",
+      "1"
+     ],
+     "results": [
+      "5"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 2 containers onto ships and 9 containers onto trains. It received 6 containers by sea and 1 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "4",
+    "output": " = 7 $$\n\n**Step 3: Calculate the difference.**\nThe question asks \"How many more containers did it load than it received?\" This means we subtract the total received from the total loaded.\n$$ \\text{Difference} = \\text{Total Loaded} - \\text{Total Received} $$\n$$ \\text{Difference} = 11 - 7 = 4 $$\n#### 4",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "2",
+      "9",
+      "6",
+      "1"
+     ],
+     "results": [
+      "11",
+      "7"
+     ]
+    }
+   }
+  ],
+  "wp_cot/2": [
+   {
+    "prompt": "A forest stored 67 kilograms of carbon. A fire released 5.9 kilograms, and new growth later stored 3 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "64.1",
+    "output": "67 - 5.9 = 61.1\n61.1 - 3 = 58.1\n#### 58.1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "67",
+      "5.9",
+      "3"
+     ],
+     "results": [
+      "61.1",
+      "58.1"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 73 unsold seats for the year. It sold 25 seats in a spring sale and 3 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "45",
+    "output": "73 - 25 = 48\n48 + 3 = 51\n#### 51",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "73",
+      "25",
+      "3"
+     ],
+     "results": [
+      "48",
+      "51",
+      "22"
+     ]
+    }
+   },
+   {
+    "prompt": "A museum counted 96 visitors in its first decade and 88 visitors in its second decade. An audit then removed 5 duplicate entries. How many visitors remain in the count?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "179",
+    "output": " + (Visitors in second decade)\n    Total visitors = $184 + 88 = 272$.\n\n4.  **Calculate the number of visitors remaining after removing duplicates.**\n    The audit removed 5 duplicate entries.\n    Remaining visitors = Total visitors - Removed entries\n    Remaining visitors = $272 - 5 = 267$.\n#### 267",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "96",
+      "88",
+      "5"
+     ],
+     "results": [
+      "184",
+      "179",
+      "2008",
+      "4023"
+     ]
+    }
+   },
+   {
+    "prompt": "An observatory catalogued 70 stars last year and 58 new stars this year. How many stars are in its catalogue in total?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "128",
+    "output": "tars last year.\n\n2.  **Identify the number of stars from the current year:**\n    The problem states there are **58** new stars this year.\n\n3.  **Calculate the total number of stars:**\n    Add the two numbers together:\n    $$70 + 58 = 128$$\n\nThe total number of stars in the catalogue is 128.\n#### 128",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "70",
+      "58"
+     ],
+     "results": [
+      "128"
+     ]
+    }
+   }
+  ],
+  "wp_cot/3": [
+   {
+    "prompt": "A museum counted 449 visitors in its first decade and 74 visitors in its second decade. An audit then removed 58 duplicate entries. How many visitors remain in the count?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "465",
+    "output": "ng visitors.**\nSubtract the number of removed entries from the total count for the first decade:\n$$449 - 58 = 391$$\n\nSubtract the number of removed entries from the total count for the second decade:\n$$74 - 58 = 16$$\n\nAdd the remaining visitors from both decades together:\n$$391 + 16 = 407$$\n#### 407",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "449",
+      "74",
+      "58"
+     ],
+     "results": [
+      "523",
+      "465"
+     ]
+    }
+   },
+   {
+    "prompt": "A mine holds an estimated 108.4 grams of copper. So far 70.116 grams have been extracted. How many grams of copper are still in the mine?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "38.284",
+    "output": "propriate number of decimal places.\nThe total amount (108.4) has 1 decimal place, and the extracted amount (70.116) has 3. The result should generally be rounded to the same number of decimal places as the input with the least precision, which is 1 decimal place.\n\n$$ 38.284 \\approx 38.3 $$\n#### 38.3",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "108.4",
+      "70.116"
+     ],
+     "results": [
+      "38.284",
+      "3",
+      "5",
+      "-35.284",
+      "4"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 538 unsold seats for the year. It sold 73 seats in a spring sale and 208 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "257",
+    "output": "538 + 73 = 611\n611 + 208 = 819\n538 - 819 = -281\n#### -281",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "538",
+      "73",
+      "208"
+     ],
+     "results": [
+      "281",
+      "257"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 176 containers onto ships and 947 containers onto trains. It received 2 containers by sea and 732 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "389",
+    "output": "176 + 947 = 1123\n2 + 732 = 734\n1123 - 734 = 389\n#### 389",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "176",
+      "947",
+      "2",
+      "732"
+     ],
+     "results": [
+      "1123",
+      "734",
+      "1857"
+     ]
+    }
+   }
+  ],
+  "wp_cot/4": [
+   {
+    "prompt": "A forest stored 8149 kilograms of carbon. A fire released 608 kilograms, and new growth later stored 7.795 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "7548.795",
+    "output": "8149 - 608 = 7541\n7541 - 7.795 = 7533.205\n#### 7533.205",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "8149",
+      "608",
+      "7.795"
+     ],
+     "results": [
+      "7541",
+      "7533.205"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 6074 unsold seats for the year. It sold 20 seats in a spring sale and 9 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "6045",
+    "output": "6074 + 20 = 6094\n6094 + 9 = 6103\n6074 - 6103 = 71\n#### 71",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "6074",
+      "20",
+      "9"
+     ],
+     "results": [
+      "29",
+      "6045"
+     ]
+    }
+   },
+   {
+    "prompt": "A museum counted 3902 visitors in its first decade and 744 visitors in its second decade. An audit then removed 87 duplicate entries. How many visitors remain in the count?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "4559",
+    "output": "ors.**\nSubtract the number of removed entries from the total count for the first decade:\n$$3902 - 87 = 3815$$\n\nSubtract the number of removed entries from the total count for the second decade:\n$$744 - 87 = 657$$\n\nAdd the remaining visitors from both decades together:\n$$3815 + 657 = 4472$$\n#### 4472",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "3902",
+      "744",
+      "87"
+     ],
+     "results": [
+      "4646",
+      "4559"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 4163 containers onto ships and 9 containers onto trains. It received 8 containers by sea and 480 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "3684",
+    "output": "4163 + 9 = 4172\n8 + 480 = 488\n4172 - 488 = 3684\n#### 3684",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "4163",
+      "9",
+      "8",
+      "480"
+     ],
+     "results": [
+      "4172",
+      "1",
+      "488",
+      "3684"
+     ]
+    }
+   }
+  ],
+  "wp_cot/6": [
+   {
+    "prompt": "An airline had 770991 unsold seats for the year. It sold 53780 seats in a spring sale and 90 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "717121",
+    "output": "770991 - 53780 = 717121\n717121 - 90 = 717031\n#### 717031",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "770991",
+      "53780",
+      "90"
+     ],
+     "results": [
+      "53870",
+      "717121"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 980171 unsold seats for the year. It sold 18 seats in a spring sale and 2420 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "977733",
+    "output": "980171 + 18 = 980189\n980189 - 2420 = 977769\n#### 977769",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "980171",
+      "18",
+      "2420"
+     ],
+     "results": [
+      "2438",
+      "977733"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 922317 containers onto ships and 23 containers onto trains. It received 19 containers by sea and 5959 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "916362",
+    "output": "922317 + 23 = 922340\n19 + 5959 = 928280\n922340 - 928280 = -5940\n#### -5940",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "922317",
+      "23",
+      "19",
+      "5959"
+     ],
+     "results": [
+      "922340",
+      "922321",
+      "928280",
+      "-5940"
+     ]
+    }
+   },
+   {
+    "prompt": "A postal service delivered 694888 letters in spring, 420 letters in summer and 60 letters in autumn. How many letters did it deliver in these three seasons?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "695368",
+    "output": "694888 + 420 = 695308\n695308 + 60 = 695368\n#### 695368",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "694888",
+      "420",
+      "60"
+     ],
+     "results": [
+      "695308",
+      "695368"
+     ]
+    }
+   }
+  ],
+  "wp_cot/8": [
+   {
+    "prompt": "A museum counted 27184492 visitors in its first decade and 20 visitors in its second decade. An audit then removed 864076 duplicate entries. How many visitors remain in the count?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "26320436",
+    "output": " entries)\nRemaining visitors = $27184512 - 864076$\n\nLet's perform the subtraction:\n  27184512\n-  864076\n-----------\n  26320436\n\n**Verification:**\n$27184512 - 800000 = 26384512$\n$26384512 - 600 = 26383912$\n$26383912 - 70 = 26383842$\n$26383842 - 6 = 26383836$\n\nThe calculation is correct.\n#### 26383836",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "27184492",
+      "20",
+      "864076"
+     ],
+     "results": [
+      "27184512",
+      "26320436",
+      "2008",
+      "2010",
+      "3",
+      "26320436",
+      "26384512",
+      "26383912",
+      "26383842"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 97593182 unsold seats for the year. It sold 973353 seats in a spring sale and 6641 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "96613188",
+    "output": "97593182 - 973353 = 96613188\n96613188 - 6641 = 96613147\n#### 96613147",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "97593182",
+      "973353",
+      "6641"
+     ],
+     "results": [
+      "979994",
+      "96613188"
+     ]
+    }
+   },
+   {
+    "prompt": "A forest stored 53964025 kilograms of carbon. A fire released 5788.47 kilograms, and new growth later stored 128056 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "54086292.53",
+    "output": "53964025 - 5788.47 = 53958236.53\n53958236.53 + 128056 = 53830180.53\n#### 53830180.53",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "53964025",
+      "5788.47",
+      "128056"
+     ],
+     "results": [
+      "53958236.53",
+      "53830180.53"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 87500333 containers onto ships and 64 containers onto trains. It received 184 containers by sea and 413257 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "87086956",
+    "output": "87500333 + 64 = 87500397\n184 + 413257 = 413441\n87500397 - 413441 = 87086956\n#### 87086956",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "87500333",
+      "64",
+      "184",
+      "413257"
+     ],
+     "results": [
+      "87500397",
+      "87500581",
+      "413441",
+      "87086956"
+     ]
+    }
+   }
+  ],
+  "wp_cot/10": [
+   {
+    "prompt": "An airline had 1415294642 unsold seats for the year. It sold 92 seats in a spring sale and 1 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "1415294549",
+    "output": "1415294642 + 92 = 1415294734\n1415294734 - 1 = 1415294733\n#### 1415294733",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "1415294642",
+      "92",
+      "1"
+     ],
+     "results": [
+      "93",
+      "1415294549"
+     ]
+    }
+   },
+   {
+    "prompt": "An airline had 3420219495 unsold seats for the year. It sold 74247435 seats in a spring sale and 9987807 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "3335984253",
+    "output": "3420219495 - 74247435 = 3335984253\n3335984253 + 9987807 = 3345972060\n#### 3345972060",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "3420219495",
+      "74247435",
+      "9987807"
+     ],
+     "results": [
+      "84235242",
+      "3335984253"
+     ]
+    }
+   },
+   {
+    "prompt": "A forest stored 9467881336 kilograms of carbon. A fire released 4757.71 kilograms, and new growth later stored 124262 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "9468000840.29",
+    "output": "9467881336 - 4757.71 = 9467876578.29\n9467876578.29 - 124262 = 9467752316.29\n#### 9467752316.29",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "9467881336",
+      "4757.71",
+      "124262"
+     ],
+     "results": [
+      "9467876578.29",
+      "9467752316.29"
+     ]
+    }
+   },
+   {
+    "prompt": "A telescope has to take 3550814062 images for a sky survey. It took 341175628 images in the first year and 240 images in the second year. How many images does it still have to take?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "3209638194",
+    "output": " \\text{Total Images} - \\text{Total Collected} $$\n$$ \\text{Remaining Images} = 3550814062 - 341175868 $$\n\nLet's perform the subtraction:\n```\n  3550814062\n-  341175868\n----------------\n  3209638194\n```\n\n**Step 4: Final Answer Formulation.**\nThe number of images remaining is 3209638194.\n#### 3209638194",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "3550814062",
+      "341175628",
+      "240"
+     ],
+     "results": [
+      "341175868",
+      "3209638194"
+     ]
+    }
+   }
+  ],
+  "wp_cot/12": [
+   {
+    "prompt": "An airline had 957755869028 unsold seats for the year. It sold 687 seats in a spring sale and 3 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "957755868338",
+    "output": "957755869028 + 687 = 957755869715\n957755869715 - 3 = 957755869712\n#### 957755869712",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "957755869028",
+      "687",
+      "3"
+     ],
+     "results": [
+      "690",
+      "957755868338"
+     ]
+    }
+   },
+   {
+    "prompt": "An observatory catalogued 508764331317 stars last year and 46024780271 new stars this year. How many stars are in its catalogue in total?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "554789111588",
+    "output": " + 1 = 10$. Write 0, carry 1.\n6.  **Sixth column**: $6 + 4 + 1 = 11$. Write 1, carry 1.\n7.  **Seventh column**: $8 + 7 + 1 = 16$. Write 6, carry 1.\n8.  **Eighth column**: $7 + 6 + 1 = 14$. Write 4, carry 1.\n9.  **Ninth column**: $5 + 4 + 1 = 10$. Write 0, carry 1.\n10. **Tenth column**: $0 + 8 + 1 = ",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "508764331317",
+      "46024780271"
+     ],
+     "results": [
+      "3",
+      "8",
+      "11"
+     ]
+    }
+   },
+   {
+    "prompt": "A mine holds an estimated 708601468020 grams of copper. So far 356914163.964 grams have been extracted. How many grams of copper are still in the mine?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "708244553856.036",
+    "output": " - 9$ (borrow from hundred-thousands, becomes 10) $10 - 9 = 1$\n*   Millions: $0 - 1 = 1$\n*   Ten-millions: $6 - 5 = 1$\n*   Hundred-millions: $8 - 3 = 5$\n*   Billions: $7 - 3 = 4$\n\nThe result is $351697304956.036$.\n\n**Step 4: Final formatting.**\nThe problem asks to finish with '\n#### 351697304956.036",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "708601468020",
+      "356914163.964"
+     ],
+     "results": [
+      "708244553856.036",
+      "3",
+      "8",
+      "4",
+      "8"
+     ]
+    }
+   },
+   {
+    "prompt": "A mine holds an estimated 106014652375.96 grams of copper. So far 8 grams have been extracted. How many grams of copper are still in the mine?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "106014652367.96",
+    "output": "106014652375.96 - 8 = 106014652367.96\n#### 106014652367.96",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "106014652375.96",
+      "8"
+     ],
+     "results": []
+    }
+   }
+  ],
+  "wp_cot/14": [
+   {
+    "prompt": "An airline had 49441822781502 unsold seats for the year. It sold 449401 seats in a spring sale and 7508 seats in a summer sale. How many seats are still unsold?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "49441822324593",
+    "output": "49441822781502 - 449401 = 49441822324593\n49441822324593 - 7508 = 49441822324595\n#### 49441822324595",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "49441822781502",
+      "449401",
+      "7508"
+     ],
+     "results": [
+      "456909",
+      "49441822324593"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 64633024856843 containers onto ships and 3292217 containers onto trains. It received 4557182265411 containers by sea and 8088370 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "60075837795279",
+    "output": "64633024856843 + 3292217 = 64633028149060\n4557182265411 + 8088370 = 4557190353721\n64633028149060 - 4557190353721 = 69190210414471\n#### 69190210414471",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "64633024856843",
+      "3292217",
+      "4557182265411",
+      "8088370"
+     ],
+     "results": [
+      "64633028149060",
+      "69190210414471",
+      "69190218502841"
+     ]
+    }
+   },
+   {
+    "prompt": "A port loaded 79887360303321 containers onto ships and 4336633628241 containers onto trains. It received 47352 containers by sea and 94273 containers by road. How many more containers did it load than it received?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "84223993789937",
+    "output": "79887360303321 + 4336633628241 = 84223993931562\n47352 + 94273 = 141625\n84223993931562 - 141625 = 84223992515337\n#### 84223992515337",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "79887360303321",
+      "4336633628241",
+      "47352",
+      "94273"
+     ],
+     "results": [
+      "141625",
+      "4336633486616"
+     ]
+    }
+   },
+   {
+    "prompt": "A forest stored 88818023072798 kilograms of carbon. A fire released 7703392045965 kilograms, and new growth later stored 19782.501 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "81114631046615.501",
+    "output": "88818023072798 - 7703392045965 = 81114631026833\n81114631026833 + 19782.501 = 81114631046615.501\n#### 81114631046615.501",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "88818023072798",
+      "7703392045965",
+      "19782.501"
+     ],
+     "results": [
+      "81114631026833",
+      "81114631007050.499"
+     ]
+    }
+   }
+  ],
+  "wp_cot/16": [
+   {
+    "prompt": "A forest stored 6510316059979033.98 kilograms of carbon. A fire released 19204717947398 kilograms, and new growth later stored 5433 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "6491111342037068.98",
+    "output": "6510316059979033.98 - 19204717947398 = 6491111342031635.98\n6491111342031635.98 + 5433 = 6491111342031668.98\n#### 6491111342031668.98",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "6510316059979033.98",
+      "19204717947398",
+      "5433"
+     ],
+     "results": [
+      "6491111342031635.98",
+      "6491111342026202.98"
+     ]
+    }
+   },
+   {
+    "prompt": "An observatory catalogued 9181543276822821 stars last year and 3180253814280 new stars this year. How many stars are in its catalogue in total?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "9184723530637101",
+    "output": "3$ (7 becomes 10, carry 1)\n$5 \\times 3 = 15$ (1 becomes 6, carry 1)\n$1 \\times 3 = 3$ (6 becomes 9, carry 1)\n$8 \\times 3 = 24$ (9 becomes 11, carry 1)\n$1 \\times 2 = 2$ (1 becomes 3, carry 3)\n$9 \\times 2 = 18$ (1 becomes 9, carry 1)\n$1 \\times 5 = 5$ (1 becomes 6, carry 6)\n$8 \\times 2 = 16$ (1 becomes ",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "9181543276822821",
+      "3180253814280"
+     ],
+     "results": [
+      "3"
+     ]
+    }
+   },
+   {
+    "prompt": "A forest stored 2230409594223382.36 kilograms of carbon. A fire released 207049593575 kilograms, and new growth later stored 9686537572112 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2239889082201919.36",
+    "output": "2230409594223382.36 - 207049593575 = 2230202544629807.36\n2230202544629807.36 + 9686537572112 = 2220516007057695.36\n#### 2220516007057695.36",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "2230409594223382.36",
+      "207049593575",
+      "9686537572112"
+     ],
+     "results": [
+      "2230202544629807.36",
+      "2220516007057695.36"
+     ]
+    }
+   },
+   {
+    "prompt": "A forest stored 2509011937673185.1784 kilograms of carbon. A fire released 945 kilograms, and new growth later stored 54381436370 kilograms more. How many kilograms of carbon does the forest store now?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2509066319108610.1784",
+    "output": "2509011937673185.1784 - 945 = 2509011937672240.1784\n2509011937672240.1784 + 54381436370 = 2509066319108610.1784\n#### 2509066319108610.1784",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "2509011937673185.1784",
+      "945",
+      "54381436370"
+     ],
+     "results": [
+      "2509011937672240.1784",
+      "2509066319108610.1784"
+     ]
+    }
+   }
+  ],
+  "wp_cot/20": [
+   {
+    "prompt": "A telescope has to take 15322823808580884987 images for a sky survey. It took 5123590082973356092 images in the first year and 434335466962245166 images in the second year. How many images does it still have to take?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "9764898258645283729",
+    "output": "1} + N_{year2}) \\\\\n\\hline\n &  & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & ",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "15322823808580884987",
+      "5123590082973356092",
+      "434335466962245166"
+     ],
+     "results": [
+      "5557925549935601258",
+      "9764898258645283729",
+      "2"
+     ]
+    }
+   },
+   {
+    "prompt": "A telescope has to take 80305549479833763543 images for a sky survey. It took 66 images in the first year and 7550803 images in the second year. How many images does it still have to take?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "80305549479826212674",
+    "output": "} = 80305549479833763543 - 7550869$$\n\nPerforming the subtraction:\n$$80305549479833763543 - 7550869 = 80305549479826212674$$\n\nThe calculation is:\n$$80305549479833763543 - 7550869 = 80305549479826007474$$\n\n**Step 4: Format the final answer.**\nThe problem asks to finish with '\n#### 80305549479826007474",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "80305549479833763543",
+      "66",
+      "7550803"
+     ],
+     "results": [
+      "7550869",
+      "80305549479826212674"
+     ]
+    }
+   },
+   {
+    "prompt": "A telescope has to take 80574531771157485492 images for a sky survey. It took 225434926097335771 images in the first year and 16 images in the second year. How many images does it still have to take?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "80349096845060149705",
+    "output": "aining} = N_{total} - N_{total\\_collected}$$\n$$N_{remaining} = 80574531771157485492 - 22543492609733577$$\n\nPerforming the subtraction:\n$$80574531771157485492 - 22543492609733577 = 58031039161423907715$$\n\n**Step 4: Format the final answer.**\nThe problem asks to finish with '\n#### 58031039161423907715",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "80574531771157485492",
+      "225434926097335771",
+      "16"
+     ],
+     "results": [
+      "225434926097335787"
+     ]
+    }
+   },
+   {
+    "prompt": "A postal service delivered 70006897116176532005 letters in spring, 137626782871 letters in summer and 85370 letters in autumn. How many letters did it deliver in these three seasons?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "70006897253803400246",
+    "output": "70006897116176532005 + 137626782871 = 70006897253803314876\n85370 = 85370\n70006897253803314876 + 85370 = 70006897253803400246\n#### 70006897253803400246",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "70006897116176532005",
+      "137626782871",
+      "85370"
+     ],
+     "results": [
+      "70006897253803314876",
+      "70006897253803400246"
+     ]
+    }
+   }
+  ],
+  "ranges_cot/1": [
+   {
+    "prompt": "Janet\u2019s ducks lay 12 eggs per day. She eats 4 for breakfast every morning and bakes muffins for her friends every day with 2. She sells the remainder at the farmers' market daily for $7 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "42",
+    "output": "revenue from muffins = (Total muffins) $\\times$ (Price per muffin)\n*   Total revenue from muffins = $6 \\times \\$7 = \\$42$ per day.\n\n**Step 4: Calculate the total daily income.**\n*   Total income = (Revenue from eggs) + (Revenue from muffins)\n*   Total income = $\\$84 + \\$42 = \\$126$ per day.\n#### 126",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "12",
+      "4",
+      "2",
+      "7"
+     ],
+     "results": [
+      "3",
+      "-1",
+      "126"
+     ]
+    }
+   },
+   {
+    "prompt": "ives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 20 cups of feed. In the afternoon, she gives her chickens another 30 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 50 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "150",
+    "output": " the *final meal* of the day.\n*   Morning: 20\n*   Afternoon: 30\n*   Final Meal: $200 / 3 \\approx 66.67$ cups\n\nSince the problem asks for a specific number of cups and typically involves whole numbers in such contexts, we round to the nearest whole number or check if a fraction is expected. Given \"ch",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "4",
+      "20",
+      "30",
+      "50"
+     ],
+     "results": [
+      "50"
+     ]
+    }
+   },
+   {
+    "prompt": "Raymond and Samantha are cousins. Raymond was born 15 years before Samantha. Raymond had a son at the age of 22. If Samantha is now 44 years old, how many years ago was Raymond's son born?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "37",
+    "output": "f the son's birth.**\nWe need to find out how many years ago the son was born.\n$$Age_{Son\\_at\\_birth} = Age_{Son} - Age_{Raymond\\_at\\_birth}$$\n$$Age_{Son\\_at\\_birth} = 22 - 29$$\n$$Age_{Son\\_at\\_birth} = -7$$\n\nThe negative number indicates that the son was 7 years old *before* Raymond was born.\n#### 7",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "15",
+      "22",
+      "44"
+     ],
+     "results": [
+      "7",
+      "29",
+      "23"
+     ]
+    }
+   },
+   {
+    "prompt": "James decides to run 1 sprints 9 times a week. He runs 80 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "720",
+    "output": "r of Runs} \\times \\text{Distance per Run} $$\n$$ \\text{Total Distance} = 9 \\times 80 $$\n\n**Step 3: Perform the calculation.**\n$$ 9 \\times 80 = 9 \\times 8 \\times 10 = 72 \\times 10 = 720 $$\n\n**Step 4: Verify the result.**\nHe runs 9 times, and each time he covers 80 meters.\n$9 \\times 80 = 720$.\n#### 720",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "1",
+      "9",
+      "80"
+     ],
+     "results": [
+      "2",
+      "3"
+     ]
+    }
+   }
+  ],
+  "ranges_cot/2": [
+   {
+    "prompt": "Janet\u2019s ducks lay 566 eggs per day. She eats 109 for breakfast every morning and bakes muffins for her friends every day with 181. She sells the remainder at the farmers' market daily for $8 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2208",
+    "output": "mers' market daily for $8 per fresh duck egg.\n$$ \\text{Revenue} = \\text{Remaining Eggs} \\times \\$8/\\text{egg} $$\n$$ \\text{Revenue} = 457 \\times 8 = 3656 $$\n\n**Step 5: Calculate the total daily income.**\nShe makes $3656 from selling the remaining eggs.\n$$ \\text{Total Daily Income} = 3656 $$\n#### 3656",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "566",
+      "109",
+      "181",
+      "8"
+     ],
+     "results": []
+    }
+   },
+   {
+    "prompt": "s the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 146 cups of feed. In the afternoon, she gives her chickens another 264 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 890 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "7600",
+    "output": "} $$\n$$ 890 \\times 9 = 8010 \\text{ cups} $$\n\n**Step 3: Calculate the total feed needed for the day.**\nAdd the total feed from the afternoon and the total feed from the morning.\n$$ \\text{Total feed} = 234960 \\text{ cups} + 8010 \\text{ cups} $$\n$$ \\text{Total feed} = 242970 \\text{ cups} $$\n#### 242970",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "9",
+      "146",
+      "264",
+      "890"
+     ],
+     "results": [
+      "410",
+      "242970"
+     ]
+    }
+   },
+   {
+    "prompt": "Jill gets paid $722 per hour to teach and $917 to be a cheerleading coach. If she works 30 weeks a year, 25 hours a week as a teacher and 25 hours a week as a coach, what's her annual salary?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "1229250",
+    "output": "hours as coach $\\times$ Coach's rate)\n*   Total annual salary = $(750 \\times 722) + (750 \\times 917)$\n\nLet's compute the individual parts:\n*   $750 \\times 722 = 541500$\n*   $750 \\times 917 = 688250$\n\nNow, sum the results:\n*   Total salary = $541500 + 688250$\n*   Total salary = $1229750$\n#### 1229750",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "722",
+      "917",
+      "30",
+      "25",
+      "25"
+     ],
+     "results": [
+      "1639",
+      "77",
+      "1500",
+      "541500"
+     ]
+    }
+   },
+   {
+    "prompt": "James decides to run 960 sprints 1 times a week. He runs 80 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "76800",
+    "output": "meters} $$\n\n**Step 2: Calculate the total distance for one week.**\nSince he runs 1 times a week, the total distance for the week is the total distance calculated in Step 1.\n$$ \\text{Total distance} = 76800 \\text{ meters} $$\n\n**Step 3: Format the answer.**\nThe problem asks to finish with '\n#### 76800",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "960",
+      "1",
+      "80"
+     ],
+     "results": [
+      "76800",
+      "2"
+     ]
+    }
+   }
+  ],
+  "ranges_cot/3": [
+   {
+    "prompt": "James decides to run 2470 sprints 4 times a week. He runs 70 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "691600",
+    "output": "er day} = 9680 \\text{ meters} $$\n\n**Step 2: Calculate the total distance for the week.**\nThere are 7 days in a week.\n$$ \\text{Total distance} = \\text{Distance per day} \\times 7 $$\n$$ \\text{Total distance} = 9680 \\text{ meters} \\times 7 $$\n$$ \\text{Total distance} = 67760 \\text{ meters} $$\n#### 67760",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "2470",
+      "4",
+      "70"
+     ],
+     "results": [
+      "67760"
+     ]
+    }
+   },
+   {
+    "prompt": "he chickens their feed in three separate meals. In the morning, she gives her flock of chickens 1794 cups of feed. In the afternoon, she gives her chickens another 2883 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 7890 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "26883",
+    "output": "d, multiply the total feed per day by the total number of chickens.\n$$ \\text{Total feed needed} = (\\text{Total feed per day}) \\times (\\text{Total chickens}) $$\n$$ \\text{Total feed needed} = 12 \\text{ cups} \\times 7890 \\text{ chickens} $$\n$$ \\text{Total feed needed} = 94680 \\text{ cups} $$\n#### 94680",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "4",
+      "1794",
+      "2883",
+      "7890"
+     ],
+     "results": [
+      "4677"
+     ]
+    }
+   },
+   {
+    "prompt": "Raymond and Samantha are cousins. Raymond was born 14983 years before Samantha. Raymond had a son at the age of 23486. If Samantha is now 47637 years old, how many years ago was Raymond's son born?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "39134",
+    "output": "mond is 47637 years old.\n*   Raymond was born 14983 years before Samantha.\n*   Samantha is 47637.\n*   $47637 - 14983 = 32654$ (Raymond's age at birth).\n*   Raymond's son is 23486 years old.\n*   The son's age at birth = Raymond's age at birth + son's age at birth = $32654 + 23486 = 56140$.\n#### 56140",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "14983",
+      "23486",
+      "47637"
+     ],
+     "results": [
+      "38469",
+      "9168",
+      "23487",
+      "46972",
+      "56140",
+      "56140",
+      "46972",
+      "46972"
+     ]
+    }
+   },
+   {
+    "prompt": "Janet\u2019s ducks lay 5340 eggs per day. She eats 1174 for breakfast every morning and bakes muffins for her friends every day with 1837. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "4658",
+    "output": "he price of an egg ($2).\nCost per muffin = $2\nTotal cost of muffins = Number of muffins $\\times$ Cost per muffin\n$$1837 \\times 2 = 3674 \\text{ dollars}$$\n\n**Step 5: Calculate the total daily income.**\nTotal income = Revenue from eggs - Cost of muffins\n$$8332 - 3674 = 4658 \\text{ dollars}$$\n#### 4658",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "5340",
+      "1174",
+      "1837",
+      "2"
+     ],
+     "results": [
+      "8332",
+      "3",
+      "3",
+      "4658"
+     ]
+    }
+   }
+  ],
+  "ranges_cot/4": [
+   {
+    "prompt": "Janet\u2019s ducks lay 65176 eggs per day. She eats 19630 for breakfast every morning and bakes muffins for her friends every day with 10681. She sells the remainder at the farmers' market daily for $5 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "174325",
+    "output": "*\nShe bakes muffins for her friends every day with 10681 muffins.\n$$ \\text{Cost of Muffins} = 10681 $$\n\n**Step 5: Calculate the net daily income.**\nNet daily income = Revenue from eggs - Cost of muffins\n$$ \\text{Net Daily Income} = 227730 - 10681 $$\n$$ \\text{Net Daily Income} = 217049 $$\n#### 217049",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "65176",
+      "19630",
+      "10681",
+      "5"
+     ],
+     "results": [
+      "45546",
+      "6",
+      "217049"
+     ]
+    }
+   },
+   {
+    "prompt": "chickens their feed in three separate meals. In the morning, she gives her flock of chickens 16293 cups of feed. In the afternoon, she gives her chickens another 26611 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 43530 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "131216",
+    "output": "ning amount together.\n$$ \\text{Total Feed} = 26611 + 16293 $$\n\nLet's perform the addition:\n  26611\n+ 16293\n-------\n  42904\n\n**Step 4: Verify the calculation.**\n$26611 + 16293 = 42904$.\n\nThe total amount of feed Wendi needs to give her chickens in the final meal of the day is $42904$ cups.\n#### 42904",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "4",
+      "16293",
+      "26611",
+      "43530"
+     ],
+     "results": [
+      "42904"
+     ]
+    }
+   },
+   {
+    "prompt": "Toula went to the bakery and bought various types of pastries. She bought 27117 dozen donuts which cost $85 per dozen, 53276 dozen mini cupcakes which cost $84 per dozen, and 63534 dozen mini cheesecakes for $56 per dozen. How much was the total cost?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "10338033",
+    "output": "\n    *   $63534 \\times 50 = 3176700$\n    *   $63534 \\times 6 = 381204$\n    *   Total: $3176700 + 381204 = 3557904$\n\n**4. Calculate the total cost:**\n*   Sum of all costs:\n    $$2304945 + 4475184 + 3557904$$\n*   Adding the first two:\n    $$2304945 + 4475184 = 6780129$$\n*   Adding the third:\n    $$678",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "27117",
+      "85",
+      "53276",
+      "84",
+      "63534",
+      "56"
+     ],
+     "results": [
+      "2304945",
+      "1",
+      "4475184",
+      "3557904",
+      "6780129",
+      "5",
+      "2169360",
+      "135585"
+     ]
+    }
+   },
+   {
+    "prompt": "James decides to run 62510 sprints 2 times a week. He runs 40 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "5000800",
+    "output": "$$125020 \\text{ sprints} \\times 40 \\text{ meters/sprint}$$\n\n    *Calculation:*\n    $$125020 \\times 40 = 125020 \\times 4 \\times 10 = 500080 \\times 10 = 5000800$$\n\n    Alternatively:\n    $$125020 \\times 40 = 5000800 \\text{ meters}$$\n\nThe total distance James runs a week is 5000800 meters.\n#### 5000800",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "62510",
+      "2",
+      "40"
+     ],
+     "results": [
+      "80",
+      "240",
+      "500080"
+     ]
+    }
+   }
+  ],
+  "ranges_cot/5": [
+   {
+    "prompt": "Janet\u2019s ducks lay 527312 eggs per day. She eats 177735 for breakfast every morning and bakes muffins for her friends every day with 151534. She sells the remainder at the farmers' market daily for $5 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "990215",
+    "output": "muffins per day.\n    *   Cost per muffin = $151534\n    *   Cost of Muffins = $151534 \\times 151534$\n    *   Calculation:\n        $$ 151534 \\times 151534 = 22800000000 $$\n    *   Cost of Muffins = $22800000000$\n\n**Step 5: Calculate the total daily income.**\n$$ \\text{Total Income} = \\text{Revenue} - \\",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "527312",
+      "177735",
+      "151534",
+      "5"
+     ],
+     "results": [
+      "349577",
+      "1747885",
+      "1747885",
+      "1747885",
+      "1747885",
+      "10",
+      "25",
+      "757670"
+     ]
+    }
+   },
+   {
+    "prompt": "ckens their feed in three separate meals. In the morning, she gives her flock of chickens 173662 cups of feed. In the afternoon, she gives her chickens another 294915 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 506910 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2572883",
+    "output": "tep 3: Perform the division.**\n$$468577 \\div 506910 \\approx 0.92366...$$\n\n**Step 4: Round to the nearest whole number.**\nSince she cannot give a fraction of a cup of feed, we round to the nearest whole number.\n$0.92...$ rounds up to **1**.\n\nWendi needs to give 1 cup of feed in the final meal.\n#### 1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "6",
+      "173662",
+      "294915",
+      "506910"
+     ],
+     "results": [
+      "468577"
+     ]
+    }
+   },
+   {
+    "prompt": "Toula went to the bakery and bought various types of pastries. She bought 942602 dozen donuts which cost $24 per dozen, 895854 dozen mini cupcakes which cost $12 per dozen, and 388472 dozen mini cheesecakes for $86 per dozen. How much was the total cost?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "66781288",
+    "output": "Price per dozen: $86\n*   Calculation: $388472 \\times 86$\n    *   $388472 \\times 80 = 31077760$\n    *   $388472 \\times 6 = 2330832$\n    *   Total: $31077760 + 2330832 = 33408592$\n\n**4. Calculate the total cost:**\n*   Sum of all costs:\n    $$22622448 + 10750248 + 33408592$$\n    *   $22622448 + 1075024",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "942602",
+      "24",
+      "895854",
+      "12",
+      "388472",
+      "86"
+     ],
+     "results": [
+      "22622448",
+      "10750248",
+      "33408592",
+      "33372696",
+      "66781288",
+      "4",
+      "18852040"
+     ]
+    }
+   },
+   {
+    "prompt": "James decides to run 784928 sprints 5 times a week. He runs 80 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "313971200",
+    "output": "mes 3924640 \\text{ sprints/week} = 313971200 \\text{ meters/week}$$\n\n3.  **Calculate the total distance run in one week:**\n    Multiply the total sprints per week by the distance per sprint.\n    $$313971200 \\text{ meters}$$\n\nThe calculation is:\n$$5 \\times 784928 \\times 80 = 313971200$$\n#### 313971200",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "784928",
+      "5",
+      "80"
+     ],
+     "results": []
+    }
+   }
+  ],
+  "ranges_cot/6": [
+   {
+    "prompt": "Janet\u2019s ducks lay 7947884 eggs per day. She eats 1736183 for breakfast every morning and bakes muffins for her friends every day with 1712083. She sells the remainder at the farmers' market daily for $6 per fresh duck egg. How much in dollars does she make every day at the farmers' market?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "26997708",
+    "output": "emainder at the farmers' market daily for $6 per fresh duck egg.\n$$ \\text{Revenue} = \\text{Remaining} \\times 6 $$\n$$ \\text{Revenue} = 6211701 \\times 6 $$\n$$ \\text{Revenue} = 37270206 $$\n\n**Step 5: Calculate the total daily income.**\nShe makes $37270206 every day at the farmers' market.\n#### 37270206",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "7947884",
+      "1736183",
+      "1712083",
+      "6"
+     ],
+     "results": [
+      "37270206"
+     ]
+    }
+   },
+   {
+    "prompt": "James decides to run 8196421 sprints 5 times a week. He runs 70 meters each sprint. How many total meters does he run a week?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2868747350",
+    "output": "he total distance covered in one week.**\nJames runs 5 sprints per week.\n$$ \\text{Total distance} = \\text{Distance per sprint} \\times \\text{Number of sprints per week} $$\n$$ \\text{Total distance} = 70 \\text{ meters} \\times 5 \\text{ sprints} $$\n$$ \\text{Total distance} = 350 \\text{ meters} $$\n#### 350",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "8196421",
+      "5",
+      "70"
+     ],
+     "results": []
+    }
+   },
+   {
+    "prompt": "ns their feed in three separate meals. In the morning, she gives her flock of chickens 1176245 cups of feed. In the afternoon, she gives her chickens another 2491841 cups of feed. How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 5383470 chickens?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "39399674",
+    "output": "3470} \\approx 0.682965... $$\n\n**Step 6: Round to the nearest whole number.**\nSince she gives chickens a portion of a cup, and the problem asks for \"how many cups\", we round to the nearest whole number.\n$0.68...$ rounds to $1$.\n\nWendi needs to give each chicken 1 cup of feed in the final meal.\n#### 1",
+    "ok": false,
+    "registers": {
+     "numbers": [
+      "8",
+      "1176245",
+      "2491841",
+      "5383470"
+     ],
+     "results": [
+      "3668086",
+      "6"
+     ]
+    }
+   },
+   {
+    "prompt": "Jill gets paid $1652870 per hour to teach and $2043462 to be a cheerleading coach. If she works 30 weeks a year, 30 hours a week as a teacher and 20 hours a week as a coach, what's her annual salary?\nSolve the problem step by step and finish with '#### ' followed by the final number.",
+    "target": "2713660200",
+    "output": ".\n\n**Step 2: Calculate the total annual salary.**\n*   Hourly wage as a teacher: $\\$1652870 \\times 900 \\text{ hours} = \\$1487583000$.\n*   Hourly wage as a coach: $\\$2043462 \\times 600 \\text{ hours} = \\$1226077200$.\n*   Total annual salary: $\\$1487583000 + \\$1226077200 = \\$2713660200$.\n#### 2713660200",
+    "ok": true,
+    "registers": {
+     "numbers": [
+      "1652870",
+      "2043462",
+      "30",
+      "30",
+      "20"
+     ],
+     "results": [
+      "3696332",
+      "110889960",
+      "73926640"
+     ]
+    }
+   }
+  ]
+ },
+ "causal": null,
+ "train": {
+  "steps": 10000,
+  "hours": 5.298,
+  "trained_params": 763108690,
+  "base_params": 752393024,
+  "decoding_cache": true,
+  "dtype": "float32",
+  "kernels": {
+   "requested": "fla",
+   "fla": "0.6.0",
+   "torch_chunk_gated_delta_rule": true,
+   "torch_recurrent_gated_delta_rule": true,
+   "causal_conv1d_fn": false,
+   "causal_conv1d_update": false,
+   "versions": {
+    "python": "3.12.3",
+    "torch": "2.13.0+cu126",
+    "cuda": "12.6",
+    "transformers": "5.22.2",
+    "peft": "0.21.2",
+    "triton": "3.7.1",
+    "fla": "0.6.0"
+   }
+  },
+  "compiled": false,
+  "gpu": "NVIDIA H200 MIG 3g.71gb",
+  "probe_loss": 4.753728,
+  "op": {
+   "layers": [
+    8,
+    14
+   ],
+   "max_spans": 12,
+   "d_key": 256,
+   "writeback": true,
+   "copy": true,
+   "dyn_max": 32,
+   "dyn_window": 3,
+   "model": "nif",
+   "operators": [
+    true,
+    true
+   ],
+   "gates": [
+    [
+     0.2219,
+     0.0496,
+     0.2125
+    ],
+    [
+     0.3857,
+     0.0766,
+     0.2813
+    ]
+   ],
+   "in_gate": 0.004
+  }
+ },
+ "ranges_stats": {
+  "0": {
+   "rows": 100,
+   "questions": 100,
+   "kept": 100,
+   "mean_digits": 1.72,
+   "max_digits": 5
+  },
+  "1": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 1.84,
+   "max_digits": 5
+  },
+  "2": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 3.08,
+   "max_digits": 7
+  },
+  "3": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 3.88,
+   "max_digits": 8
+  },
+  "4": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 4.68,
+   "max_digits": 9
+  },
+  "5": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 5.49,
+   "max_digits": 10
+  },
+  "6": {
+   "rows": 5000,
+   "questions": 100,
+   "kept": 1000,
+   "mean_digits": 6.29,
+   "max_digits": 11
+  }
+ },
+ "config": {
+  "model": "Qwen/Qwen3.5-0.8B",
+  "nif_ckpt": "checkpoints/main_s0/best.pt",
+  "data_dir": "downstream/data",
+  "max_size": 12,
+  "steps": 10000,
+  "batch": 32,
+  "warmup": 100,
+  "clip": 1.0,
+  "full_ft": true,
+  "lr_full": 1e-05,
+  "lr_op": 0.001,
+  "accum": 2,
+  "mix": {
+   "add": 0.1,
+   "sub": 0.1,
+   "chain": 0.05,
+   "mul": 0.12,
+   "cmp": 0.03,
+   "gsm_cot": 0.15,
+   "wp_cot": 0.15,
+   "domain_cot": 0.3
+  },
+  "gsm_solutions": "",
+  "domain_solutions": "",
+  "sanity": true,
+  "log_every": 25,
+  "ckpt_every": 500,
+  "eval_every": 500,
+  "eval_n": 100,
+  "ranges_n": 200,
+  "max_new_text": 96,
+  "max_new_cot": 512,
+  "eval_batch": 128,
+  "dtype": "auto",
+  "kernels": "fla",
+  "group": 8,
+  "compile": false,
+  "op_layers": "8,14",
+  "op_max_spans": 12,
+  "op_key": 256,
+  "op_writeback": true,
+  "op_copy": true,
+  "op_dynamic": 32,
+  "op_window": 3,
+  "w_ptr": 1.0,
+  "w_lm": 1.0,
+  "causal_n": 200,
+  "init_ckpt": "downstream/runs/operator_layers/ckpt.pt",
+  "restart_at": 6000,
+  "restart_peak": 0.4,
+  "method": "op_nif",
+  "seed": 0
+ }
+}

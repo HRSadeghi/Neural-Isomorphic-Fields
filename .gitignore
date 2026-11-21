@@ -1,0 +1,35 @@
+# Model weights are distributed separately (see checkpoints/README.md)
+checkpoints/*
+!checkpoints/README.md
+!checkpoints/SHA256SUMS
+*.pt
+*.pth
+*.safetensors
+
+# Training state written by new runs
+runs/*/ckpt/
+downstream/runs/*/ckpt.pt
+downstream/runs/*/ckpt/
+
+# Downloaded or rebuilt on the first run
+downstream/data/*_processed.json
+reading/cache/
+
+# Logs of new runs
+/logs/
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors and systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

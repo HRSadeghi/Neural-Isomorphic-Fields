@@ -1,0 +1,21 @@
+{
+  "name": "abl_x_fourier_random",
+  "op": "x",
+  "kind": "staged",
+  "no_hints": false,
+  "no_refit": false,
+  "fourier": "random",
+  "soft_counts": false,
+  "bf16": false,
+  "steps": 8000,
+  "batch": 256,
+  "lr": 0.001,
+  "seed": 0,
+  "eval_every": 250,
+  "ckpt_every": 250,
+  "layers": null,
+  "patience": 6,
+  "min_delta": 0.05,
+  "min_steps": 1000,
+  "saturate": 99.95
+}
