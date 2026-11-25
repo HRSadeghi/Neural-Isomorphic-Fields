@@ -1,6 +1,7 @@
 # checkpoints
 
-The model weights are not in git. Download them from Google Drive: **LINK**
+The model weights are not in git. Download them from
+[Google Drive](https://drive.google.com/drive/folders/1jSvimFyft3ftIpodHPicKbEaBF4jsdvn).
 
 After unpacking, the folder looks like this:
 

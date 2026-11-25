@@ -123,7 +123,8 @@ The language-model experiment needs a few more packages: `pip install -r require
 ## Model weights
 
 The weights are not in git (about 2.2 GB for the 43 NIF models and 2.8 GB for each of the two language-model
-checkpoints). They can be downloaded from Google Drive: **LINK**. Put them into `checkpoints/` as described in
+checkpoints). They can be downloaded from
+[Google Drive](https://drive.google.com/drive/folders/1jSvimFyft3ftIpodHPicKbEaBF4jsdvn). Put them into `checkpoints/` as described in
 [checkpoints/README.md](checkpoints/README.md). The tables and figures do not need them; the tests, the analyses and
 the reading and language-model experiments do.
 
